@@ -29,4 +29,50 @@ In the realm of Object Oriented Programming:
 ### Object Orient Programming (OOP)
 + Used in programming to create longlasting software systems that contain modules 
 + creates programs by making things called **Objects**
-+ Concentrates on the
++ Concentrates on the representation of information over the IPO procedure (OOP vs procedure-based programming)
++ The objective is to make an object that we can establish as well as give purpose to resolve dilemmas
+### Conceptual differentiation 
+#### procedure-based 
+A human specimen may need
++ calculations 
++ Logic based analysis 
++ ability to do recurring steps 
++ database
+#### OOP
+Making an object that represents a human 
++ What do name do they go by 
++ Where do they live 
++ What functions are built into this function
+“OOP focuses on how to manipulate the data of the object rather than the logic required to manipulate them”
+## Deeper evaluation into an object
+**Object**: A mixture of data & function code. This can represent states & habits that a real world object may possess
+
+**Remember that an object is an occurence**
+
+**states**: What information can be measured about the object 
+
+**habits**: What the object can do (what functions it can perform) 
+
+Object's Data -> known in OOP as: attributes
+
+Object's Code -> known in OOP as: methods 
+## An example of an instance representing a dog
+### Dogs often possess the following **Attributes** 
++ Name 
++ Color
++ Breed
++ isHungry
++ isThirsty
+### Dogs often possess the following **Methods**
++ bark()
++ eat()
++ sleep()
+
+If more attributes are added to the dog then we have an occurance, thus, an **object** is created
+## Classes & Objects
+**Class**: conceptual illustration of every object that can be created by this set class that can instantiate objects when needed 
+
+**Attributes** are often found in a Class
+
+**Attributes** are known as an object's 
+
