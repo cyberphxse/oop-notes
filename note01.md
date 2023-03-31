@@ -74,5 +74,32 @@ If more attributes are added to the dog then we have an occurance, thus, an **ob
 
 **Attributes** are often found in a Class
 
-**Attributes** are known as an object's 
+**Attributes** are known as an object's available mechanisms
+
+1. Fields: A class or object's variables
+  -First type: the occurance of the class owns it 
+  -Second type: the class owns it 
+2. Methods: Functions that the object can use or call on demand
+# OOP in Python 3 
+## Important term: Class
+**Class** -> a preset keyword available in python that can let us make our own classes
+
+Example: 
+```
+  # The Most Basic Class
+  
+  class ClassName: # Notice that Class names are capitalized
+     pass # An empty Block 
+  # End of ClassName
+  
+  obj = ClassName()
+  print(obj)
+```
+## Making a Class
+1. Establish the Class name by using the keyword: **class**
+2. Within the code block that defines your class, establish its attributes
+3. Establish a variable along with an instantiation of the class to interact with it
+  - Use brackets when calling the class name 
+
+
 
