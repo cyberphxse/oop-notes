@@ -82,3 +82,45 @@ Morphism means forms
 **Ideas:**
 + Unlike classes (ones that are not inherited) are able to have methods that are named identically -> polymorphism 
 + inside a set of inherited class, they possess identical methods
+
+### 2 different classes with the same method 
+```
+class Bear: 
+  def sound(self): 
+    print("Groarr")
+class Dog: 
+  def sound(self):
+    print("Woof woof!")
+def makeSound(animalType):
+  animalType.sound()
+
+bearObj = Bear()
+dogObj = Dog()
+
+makeSound(bearObj)
+makeSound(dogObj)
+
+'''
+In conclusion:
+We can give two different classes same methods; hence, **Polymorphism.**
+'''
+```
+### Polymorphism & inheritance 
+**overloading** 
++ in Python 3, it is forbidden. However, it is considered a type of polymorphism 
+
+**Inherited classes altering inherited methods** (Overriding) -> Python 3 Polymorphism 
+
+### Example of forbidden Overloading
+```
+class Person:
+  def __init__(self,name,age):
+    self.__name = name 
+    self.__age = age
+  def show(self): 
+    return self.__name 
+  def show(self, num):
+    return "%s %d" % (self.__name, self.__age)
+ ```
+ ## Base overrides
+ 
