@@ -37,7 +37,9 @@ print(s1.firstName) # Returns/Outputs "Mr."
 s1.firstName = "Ms."
 print(s1.firstName) # Returns/Outputs "Ms."
 ```
+
 ### Common Practice 
+
 ```
 class Student: 
   def __init__(self,nameF, nameL, num):
@@ -50,7 +52,8 @@ class Student:
     
   def getFirstName(self):
     return self.__firstName 
-```    
+``` 
+
 ## Overrides
 ### Overloading vs Overriding 
 
@@ -60,3 +63,21 @@ class Student:
 **Overriding**
 + 2 methods named identically and have identical parameters
 
++ one method is in the parent class
++ the other is in the child class 
++ overrising enables the child class to supply certain implementation for a method that is present in the parent class
++ you are allowed to override built-in magic methods/base functions 
+
+**IMPORTANT**: in python 3, overloading does not happen
+
+## Polymorphism 
+### What is polymorphism?
+**Polymorphism**
++ a method that is allowed to be used across a variety of classes & objects that relies on the parameters 
+
+Poly means many 
+Morphism means forms 
+
+**Ideas:**
++ Unlike classes (ones that are not inherited) are able to have methods that are named identically -> polymorphism 
++ inside a set of inherited class, they possess identical methods
