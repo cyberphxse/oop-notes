@@ -39,3 +39,6 @@ class Deck:
  + when it reaches the final value, raise Stopiteration
 ### How about indexing?
 Indexing is very complex, it needs many modules to be imported to let your own object to be indexable & sliceable 
+
+# Citations (MLA 8) 
+Park, Jasper. “U3L4 - Object Orientated Programming 4.” Google Slides, Mar. 2023, docs.google.com/presentation/d/1-Q1t0MzkhzI1iqMS6M0vO7iWNR5Ov6Gn-ClVVrjQT-Y/edit#slide=id.g2aa4fceed5_0_192.
