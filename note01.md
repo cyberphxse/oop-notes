@@ -100,6 +100,65 @@ Example:
 2. Within the code block that defines your class, establish its attributes
 3. Establish a variable along with an instantiation of the class to interact with it
   - Use brackets when calling the class name 
+## Example with the person class
+```
+class Person: 
+  pass # An Empty Block
+# End of Person Class
+
+student1 = Person() # Student1 is now a Person Object
+print(student1)
+```
+
+## Making a method in a class
+Classes have the ability to possess methods. To use them in Python 3, just like a new function, state them (no need to return)
+
+Example:
+```
+  class Person:
+    def greet(self):
+       print('Hello, How are you?')
+    #end of greet
+  #end of class Person
+  p = Person()
+  p.greet() # outputs the greet message ...
+  # the method is accessed with a period (.) 
+  # Wait... what is the self????
+```
+
+## The __init__ methods & self parameter 
+def __init__(self): -> known as the __init__ method (two underscores for each side)
+
++ Performs the second when the object of the class is instantiated 
++ Initializes the object's attributes 
++ **self** parameter -> indicates the method is already put in & available for access for the object itself 
++ To add on, **self** will view its own attributes as local
+
+double underscores in python are important unseen characteristics which enables us to update python features & unseen information 
+
+## example -> Person class
+```
+class Person: 
+    def __init__(self,name):
+        self.name = name 
+    #end of initialization 
+    
+    def greet(self): # The self parameter is always required 
+        print("Hello, my name is", self.name)
+    #end of greet 
+#end of class Person
+
+p = person('Mr. Park')
+p.greet()
+```
+# Example: List
+
+## Python 3: List as an Object
+L = [1,2,3,4]
++ L -> occurance of the list class; Thus, L is an object
+
+### Features 
+  
 
 
 
