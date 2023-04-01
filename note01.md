@@ -44,7 +44,7 @@ Making an object that represents a human
 + Where do they live 
 + What functions are built into this function
 “OOP focuses on how to manipulate the data of the object rather than the logic required to manipulate them”
-## Deeper evaluation into an object
+### Deeper evaluation into an object
 **Object**: A mixture of data & function code. This can represent states & habits that a real world object may possess
 
 **Remember that an object is an occurence**
@@ -56,20 +56,20 @@ Making an object that represents a human
 Object's Data -> known in OOP as: attributes
 
 Object's Code -> known in OOP as: methods 
-## An example of an instance representing a dog
-### Dogs often possess the following **Attributes** 
+### An example of an instance representing a dog
+#### Dogs often possess the following **Attributes** 
 + Name 
 + Color
 + Breed
 + isHungry
 + isThirsty
-### Dogs often possess the following **Methods**
+#### Dogs often possess the following **Methods**
 + bark()
 + eat()
 + sleep()
 
 If more attributes are added to the dog then we have an occurance, thus, an **object** is created
-## Classes & Objects
+### Classes & Objects
 **Class**: conceptual illustration of every object that can be created by this set class that can instantiate objects when needed 
 
 **Attributes** are often found in a Class
@@ -95,7 +95,7 @@ Example:
   obj = ClassName()
   print(obj)
 ```
-## Making a Class
+### Making a Class
 1. Establish the Class name by using the keyword: **class**
 2. Within the code block that defines your class, establish its attributes
 3. Establish a variable along with an instantiation of the class to interact with it
@@ -110,7 +110,7 @@ student1 = Person() # Student1 is now a Person Object
 print(student1)
 ```
 
-## Making a method in a class
+### Making a method in a class
 Classes have the ability to possess methods. To use them in Python 3, just like a new function, state them (no need to return)
 
 Example:
@@ -126,7 +126,7 @@ Example:
   # Wait... what is the self????
 ```
 
-## The __init__ methods & self parameter 
+### The __init__ methods & self parameter 
 def __init__(self): -> known as the __init__ method (two underscores for each side)
 
 + Performs the second when the object of the class is instantiated 
@@ -136,7 +136,7 @@ def __init__(self): -> known as the __init__ method (two underscores for each si
 
 double underscores in python are important unseen characteristics which enables us to update python features & unseen information 
 
-## example -> Person class
+### example -> Person class
 ```
 class Person: 
     def __init__(self,name):
@@ -151,13 +151,13 @@ class Person:
 p = person('Mr. Park')
 p.greet()
 ```
-# Example: List
+## Example: List
 
-## Python 3: List as an Object
+### Python 3: List as an Object
 L = [1,2,3,4]
 + L -> occurance of the list class; Thus, L is an object
 
-### Features 
+#### Features 
 L[i] -> indexing
 
 L [i:j] -> slicing 
@@ -168,7 +168,7 @@ methods -> L.append(), L.count(), L.extend(), L.sort(), L.reverse()
 **Important**
 No need to know how these were coded, just need to know what abilities lists have 
 
-# Citations (MLA 9):
+## Citations (MLA 9):
 Park, Jasper. “U3L1  - Object Oriented Programming 1.” Google Slides, Mar. 2023, docs.google.com/presentation/d/1wJ1SqLBaVSahdJUO41QRkyyLDmXpMWCROxV5TzdWsvU/edit#slide=id.p.
 
 
