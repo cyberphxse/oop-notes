@@ -10,3 +10,32 @@
 **Important:**
 + The part of iterable object needs to be a sequence 
 + Just because something is iterable, it is not guaranteed that it can be indexed
+
+### example- prints every card in the deck 
+```
+class Deck:
+	… Code …
+	def __iter__(self):
+		return self
+
+	def __next__(self):
+		self.__index += 1
+		if self.__index == len(self.__cards):
+			self.__index = -1 # index reset
+			raise StopIteration
+		else:	
+			return self.__cards[self.__index]
+
+	… Code …	
+```
+### __iter__() & __next__()
+**__init__()**
++ makes our object iterable, when called upon (ex. for loop), it will call the method. Often returns itself
+**__next__()**
++ enables us to get the value after during iteration 
++ practice often used: 
+ + put index attribute as -1 
+ + put the index attribute by 1 until self.__index is as long as the sequence
+ + when it reaches the final value, raise Stopiteration
+### How about indexing?
+Indexing is very complex, it needs many modules to be imported to let your own object to be indexable & sliceable 
