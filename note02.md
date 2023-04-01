@@ -121,6 +121,47 @@ class Person:
     return self.__name 
   def show(self, num):
     return "%s %d" % (self.__name, self.__age)
- ```
- ## Base overrides
- 
+```
+## Base overrides
+### Python: Override & Polymorphism
+we are able to have:
++ 2 unlike classes that possess identical attributes & methods 
++ A child of a parent possesses an overrided method, in which the child would use the method in a distinct way
+
+Within Python, 2 basic ideas of overriding & polymorphism exist
+
+We are able to override Python 3 built-in methods/operators. To add on, we can override the objects we created too.
+
+Certain websites address them as "magic methods"
+
+### Example
+```
+class Dog: 
+  def __init__(self,name): 
+    self.__name = name 
+    
+  def __str__(self):
+    return "Woof, I'm %s." % self.__name
+corgi = Dog("Tobasco")
+print(corgi) -> "Woof, I'm Tobasco."
+```
+
+### Why override built-in methods & operators 
+**Benefits:**
++ Able to begin to finish mathematical operations on the objects we made 
++ Able to begin to differentiate equality between objects we made 
+
+**thus:** You are able to begin to influence how the object executes when it interacts with built-in methods & operators
+
+## __repr__ base function 
+### __repr__() base function 
+>**repr(object)**
+Return a string containing a printable representation of an object. For many types, this function makes an attempt to return a string that would yield an object with the same value when passed to eval(); otherwise, the representation is a string enclosed in angle brackets that contains the name of the type of the object together with additional information often including the name and address of the object. A class can control what this function returns for its instances by defining a __repr__() method. If sys.displayhook() is not accessible, this function will raise RuntimeError.
+
+If you wanna make your custom objects be able to print, overriding __repr__ & __str__ is required.
+
+__repr__ -> lets us show our project in print format 
+__str__ -> lets us switch our object into a string
+
+# Citations (MLA 8)
+Park, Jasper. “U3L2 - Object Oriented Programming 2.” Google Slides, Mar. 2023, docs.google.com/presentation/d/1BSBVPl27YKaFtiNa_6EPyUd5gnM5o60fKHdrmtp2jGk/edit#slide=id.g55ff3e348b_0_90.
