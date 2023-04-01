@@ -2,6 +2,7 @@
 ## Encapsulation 
 ### What is encapsulation?
 **Encapsulation** -> concealing data: limiting entry to specific methods & attributes in a class/object
+
 **Why tho?**
 -defend data from outsiders accessing it
 -limiting specific methods to be callable 
