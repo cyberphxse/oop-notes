@@ -158,7 +158,18 @@ L = [1,2,3,4]
 + L -> occurance of the list class; Thus, L is an object
 
 ### Features 
-  
+L[i] -> indexing
+
+L [i:j] -> slicing 
+functions -> len(), min(), max()
+operators -> + & * 
+methods -> L.append(), L.count(), L.extend(), L.sort(), L.reverse()
+
+**Important**
+No need to know how these were coded, just need to know what abilities lists have 
+
+# Citations (MLA 9):
+Park, Jasper. “U3L1  - Object Oriented Programming 1.” Google Slides, Mar. 2023, docs.google.com/presentation/d/1wJ1SqLBaVSahdJUO41QRkyyLDmXpMWCROxV5TzdWsvU/edit#slide=id.p.
 
 
 
