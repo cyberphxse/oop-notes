@@ -80,8 +80,8 @@ If more attributes are added to the dog then we have an occurance, thus, an **ob
   -First type: the occurance of the class owns it 
   -Second type: the class owns it 
 2. Methods: Functions that the object can use or call on demand
-# OOP in Python 3 
-## Important term: Class
+## OOP in Python 3 
+### Important term: Class
 **Class** -> a preset keyword available in python that can let us make our own classes
 
 Example: 
