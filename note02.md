@@ -169,4 +169,5 @@ __str__ -> lets us switch our object into a string
 
 # Citations (MLA 8)
 Park, Jasper. “U3L2 - Object Oriented Programming 2.” Google Slides, Mar. 2023, docs.google.com/presentation/d/1BSBVPl27YKaFtiNa_6EPyUd5gnM5o60fKHdrmtp2jGk/edit#slide=id.g55ff3e348b_0_90.
+
 “Built-in Functions.” Python Documentation, docs.python.org/3/library/functions.html?highlight=repr#repr.
