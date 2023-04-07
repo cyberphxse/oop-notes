@@ -29,7 +29,7 @@ class Deck:
 	… Code …	
 ```
 ### __iter__() & __next__()
-**__init__()**
+**__iter__()**
 + makes our object iterable, when called upon (ex. for loop), it will call the method. Often returns itself
 **__next__()**
 + enables us to get the value after during iteration 
