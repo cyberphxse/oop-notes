@@ -78,8 +78,11 @@ If more attributes are added to the dog then we have an occurance, thus, an **ob
 **Attributes** are known as an object's available mechanisms
 
 1. Fields: A class or object's variables
+
   -First type: the occurance of the class owns it 
+  
   -Second type: the class owns it 
+  
 2. Methods: Functions that the object can use or call on demand
 ## OOP in Python 3 
 ### Important term: Class
