@@ -80,6 +80,7 @@ class Student:
 + a method that is allowed to be used across a variety of classes & objects that relies on the parameters 
 
 Poly means many 
+
 Morphism means forms 
 
 **Ideas:**
