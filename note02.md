@@ -4,8 +4,11 @@
 **Encapsulation** -> concealing data: limiting entry to specific methods & attributes in a class/object
 
 **Why tho?**
+
 -defend data from outsiders accessing it
--limiting specific methods to be callable 
+
+-limiting specific methods to be callable
+
 **important**
 + Python does not really have this ability. However we can use a specific system for python. -> concealing attributes & methods via two underscores at the beginning
 
