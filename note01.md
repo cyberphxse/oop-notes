@@ -44,6 +44,7 @@ Making an object that represents a human
 + What do name do they go by 
 + Where do they live 
 + What functions are built into this function
+
 “OOP focuses on how to manipulate the data of the object rather than the logic required to manipulate them”
 ### Deeper evaluation into an object
 **Object**: A mixture of data & function code. This can represent states & habits that a real world object may possess
